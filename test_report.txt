@@ -1,0 +1,132 @@
+
+> tasks@0.1.0 test
+> react-scripts test
+
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+PASS src/quizzer/Quizzer.test.tsx
+  ● Console
+
+    console.log
+      false
+
+      at handleShowModal (src/quizzer/Quizzer.tsx:48:45)
+
+    console.log
+      daf
+
+      at reset (src/quizzer/QuizExpanded.tsx:47:17)
+
+    console.log
+      daf
+
+      at reset (src/quizzer/QuizExpanded.tsx:47:17)
+
+    console.log
+      hufdahif
+
+      at onClick (src/quizzer/QuizExpanded.tsx:83:37)
+
+    console.log
+      Simple_Questions
+
+      at onClick (src/quizzer/QuizEdit.tsx:149:41)
+
+    console.log
+      daf
+
+      at reset (src/quizzer/QuizExpanded.tsx:47:17)
+
+    console.log
+      hufdahif
+
+      at onClick (src/quizzer/QuizExpanded.tsx:83:37)
+
+    console.log
+      Simple_Questions
+
+      at onClick (src/quizzer/QuizEdit.tsx:149:41)
+
+    console.log
+      daf
+
+      at reset (src/quizzer/QuizExpanded.tsx:47:17)
+
+    console.log
+      hufdahif
+
+      at onClick (src/quizzer/QuizExpanded.tsx:83:37)
+
+    console.log
+      daf
+
+      at reset (src/quizzer/QuizExpanded.tsx:47:17)
+
+    console.log
+      hufdahif
+
+      at onClick (src/quizzer/QuizExpanded.tsx:83:37)
+
+    console.log
+      Simple_Questions
+
+      at onClick (src/quizzer/QuizEdit.tsx:149:41)
+
+    console.log
+      daf
+
+      at reset (src/quizzer/QuizExpanded.tsx:47:17)
+
+    console.log
+      hufdahif
+
+      at onClick (src/quizzer/QuizExpanded.tsx:83:37)
+
+    console.log
+      Simple_Questions
+
+      at onClick (src/quizzer/QuizEdit.tsx:149:41)
+
+    console.log
+      daf
+
+      at reset (src/quizzer/QuizExpanded.tsx:47:17)
+
+    console.log
+      hufdahif
+
+      at onClick (src/quizzer/QuizExpanded.tsx:83:37)
+
+    console.log
+      Simple_Questions
+
+      at onClick (src/quizzer/QuizEdit.tsx:149:41)
+
+PASS src/App.test.tsx
+-------------------|---------|----------|---------|---------|--------------------------------------------
+File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                          
+-------------------|---------|----------|---------|---------|--------------------------------------------
+All files          |   81.56 |    81.66 |   76.71 |   80.88 |                                            
+ src               |   66.66 |       50 |      50 |   66.66 |                                            
+  App.tsx          |   66.66 |       50 |      50 |   66.66 | 16                                         
+ src/interfaces    |       0 |        0 |       0 |       0 |                                            
+  question.ts      |       0 |        0 |       0 |       0 |                                            
+  quiz.ts          |       0 |        0 |       0 |       0 |                                            
+ src/quizzer       |   81.88 |    83.92 |   77.46 |    81.2 |                                            
+  AddQuizModal.tsx |   54.54 |      100 |      40 |   54.54 | 35-54                                      
+  QuestionEdit.tsx |   44.82 |    64.28 |      40 |   44.82 | 24-27,46-47,54-56,64-66,89-162,196,223,248 
+  QuizCard.tsx     |     100 |       80 |     100 |     100 | 32                                         
+  QuizEdit.tsx     |   85.71 |      100 |   73.33 |   85.71 | 34-36,69,99                                
+  QuizExpanded.tsx |     100 |    85.71 |     100 |     100 | 73                                         
+  QuizList.tsx     |     100 |      100 |     100 |     100 |                                            
+  QuizQuestion.tsx |     100 |    85.71 |     100 |     100 | 24-31                                      
+  QuizView.tsx     |     100 |      100 |     100 |     100 |                                            
+  Quizzer.tsx      |     100 |      100 |     100 |     100 |                                            
+-------------------|---------|----------|---------|---------|--------------------------------------------
+
+Test Suites: 2 passed, 2 total
+Tests:       15 passed, 15 total
+Snapshots:   0 total
+Time:        4.091 s
+Ran all test suites.
